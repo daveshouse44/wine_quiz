@@ -1,4 +1,4 @@
-const wineQuestions = [
+const wineData = [
   {
     question:
       "Why are there very few vineyards lying closer to the equator than 30 degrees?",
@@ -60,4 +60,4 @@ const wineQuestions = [
   },
 ];
 
-export default wineQuestions;
+export default wineData;
