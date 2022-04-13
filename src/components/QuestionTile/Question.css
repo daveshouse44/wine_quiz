@@ -1,0 +1,114 @@
+.timer {
+  position: absolute;
+  padding: 2.5rem;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #5270c4;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  @media screen and (max-width: 500px) {
+    font-size: 2rem;
+    padding: 2rem;
+    height: 40px;
+    width: 40px;
+    font-size: 2rem;
+  }
+}
+
+section {
+  position: relative;
+  border: 2px solid #5990c4;
+  color: #004a7c;
+  color: #fff;
+}
+
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-color: #42f580;
+}
+
+.buttonWrapper {
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.displayWrapper {
+  background-color: #5990c0;
+  padding: 25px;
+}
+
+.questionContent {
+  font-style: 25px;
+  width: 100%;
+  padding: 20px 0;
+  @media screen and (max-width: 500px) {
+    margin: top 3rem;
+  }
+}
+
+.questionCounter {
+  font-style: 25px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  width: 80%;
+  background-color: #eee;
+  color: cadetblue;
+  margin: 5px 0;
+  border: 1px solid #5990c0;
+  border-radius: 25px;
+  color: #004a7c;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease-in;
+  background: transparent;
+}
+
+button:hover {
+  background-color: #5990c0;
+  color: #fff;
+}
+
+button:before {
+  content: "A";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+  transform: translateY(-50%);
+  background-color: #5990c0;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+}
+
+button:nth-of-type(2)::before {
+  content: "B";
+}
+
+button:nth-of-type(3)::before {
+  content: "C";
+}
+
+button:nth-of-type(4)::before {
+  content: "D";
+}
+
+button:hover::before {
+  border: 1px solid #fff;
+}

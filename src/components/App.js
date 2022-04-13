@@ -102,13 +102,13 @@ class App extends Component {
 
     return (
       <>
-        <wrapper>
+        <section>
           {this.state.quizStatus ? (
             <QuestionTile fn={this.questionClickHandler} {...items} />
           ) : (
             <ScoreBoard props={this.state} fn={this.resetQuiz} />
           )}
-        </wrapper>
+        </section>
         ;
       </>
     );
