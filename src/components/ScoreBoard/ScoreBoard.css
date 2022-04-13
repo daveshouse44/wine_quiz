@@ -1,0 +1,18 @@
+button {
+  font-size: 25px;
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #004a7c;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 25px;
+  color: #fff;
+  padding: 25px;
+}
