@@ -1,4 +1,5 @@
 import React from "react";
+import "./RecordOfQuestion.css";
 
 const ballColorHandle = (ball) => {
   switch (ball) {
@@ -18,6 +19,6 @@ const RecordOfQuestion = ({ questionArray, recordedAnswers }) => {
       <div className="ballDisplay" key={index} balls={ballColorHandle(ball)} />
     );
   });
-  return <wrapper>{RecordBall}</wrapper>;
+  return <section>{RecordBall}</section>;
 };
 export default RecordOfQuestion;

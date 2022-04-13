@@ -1,5 +1,6 @@
 import React from "react";
 import RecordOfQuestion from "../RecordOfQuestion/RecordOfQuestion";
+import "./QuestionTile.css";
 
 const handleWidth = (width) => {
   let size = width * 10;
