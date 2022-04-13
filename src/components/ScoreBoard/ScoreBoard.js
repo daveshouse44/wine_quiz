@@ -1,5 +1,5 @@
 import React from "react";
-import RecordOfQuestion from "./RecordOfQuestion/RecordOfQuestion";
+import RecordOfQuestion from "../RecordOfQuestion/RecordOfQuestion";
 import "./ScoreBoard.css";
 
 const ScoreBoard = ({ props, fn }) => {
